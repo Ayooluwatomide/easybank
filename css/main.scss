@@ -247,7 +247,7 @@ section.latest-articles {
     }
 }
 
-section.footer{
+.footer{
 
     background: var(--dark-blue);
     text-align: center;
@@ -563,7 +563,7 @@ section.footer{
     }
 
 
-    section.footer{
+    .footer{
         
 
         .container{
@@ -625,7 +625,7 @@ section.footer{
     }
 
 
-    section.footer{
+    .footer{
         
         .container{
             grid-template-columns: repeat(4, 30% 12% 10% 48% );
@@ -713,7 +713,7 @@ section.footer{
         }
     }
 
-    section.footer {
+    .footer {
 
         .container{
             padding: 2.5em 1em;

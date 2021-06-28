@@ -242,41 +242,41 @@ section.latest-articles p {
   margin: unset;
 }
 
-section.footer {
+.footer {
   background: var(--dark-blue);
   text-align: center;
   font-size: .8em;
   font-weight: 300;
 }
 
-section.footer ul.footer-icons {
+.footer ul.footer-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   place-content: center;
 }
 
-section.footer ul.footer-icons li {
+.footer ul.footer-icons li {
   padding: 2em .4em 2em .4em;
 }
 
-section.footer div.footer-link-1, section.footer .footer-link-1 {
+.footer div.footer-link-1, .footer .footer-link-1 {
   margin-bottom: 1.5em;
 }
 
-section.footer .footer-link-2 {
+.footer .footer-link-2 {
   margin-top: -1.5em;
 }
 
-section.footer a {
+.footer a {
   color: var(--white);
 }
 
-section.footer li {
+.footer li {
   padding: .8em;
 }
 
-section.footer li.copyright {
+.footer li.copyright {
   color: var(--grayish-blue);
 }
 
@@ -493,29 +493,29 @@ section.footer li.copyright {
   section.latest-articles .article-cards .article-card-text p, section.latest-articles .article-cards .article-card-text h4 {
     width: 89%;
   }
-  section.footer .container {
+  .footer .container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (30% 12% 12% 46%)[4];
         grid-template-columns: repeat(4, 30% 12% 12% 46%);
     padding: 3em 1em;
   }
-  section.footer .logo-with-icons {
+  .footer .logo-with-icons {
     margin-top: 1em;
   }
-  section.footer .footer-logo {
+  .footer .footer-logo {
     margin-bottom: 2em;
   }
-  section.footer .footer-link-1, section.footer .footer-link-2 {
+  .footer .footer-link-1, .footer .footer-link-2 {
     text-align: left;
   }
-  section.footer div.footer-link-2 {
+  .footer div.footer-link-2 {
     margin-top: unset;
   }
-  section.footer .copyright-section {
+  .footer .copyright-section {
     margin-left: 17em;
   }
-  section.footer .copyright-section .copyright {
+  .footer .copyright-section .copyright {
     margin-left: -4.2em;
   }
 }
@@ -534,7 +534,7 @@ section.footer li.copyright {
     padding: .8em;
     width: 11em;
   }
-  section.footer .container {
+  .footer .container {
     -ms-grid-columns: (30% 12% 10% 48%)[4];
         grid-template-columns: repeat(4, 30% 12% 10% 48%);
   }
@@ -586,7 +586,7 @@ section.footer li.copyright {
   section.latest-articles .article-cards li {
     margin-right: 1.2em !important;
   }
-  section.footer .container {
+  .footer .container {
     padding: 2.5em 1em;
   }
 }
